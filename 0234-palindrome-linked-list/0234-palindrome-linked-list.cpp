@@ -23,7 +23,7 @@ public:
     bool isPalindrome(ListNode* head) {
         traverse(head);
         ListNode*temp=head;
-        while(!st.empty() || temp!=nullptr){
+        while(!st.empty() && temp!=nullptr){
             if(st.top()!=temp->val){
                 return false;
             }
