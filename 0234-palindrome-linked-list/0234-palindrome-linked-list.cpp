@@ -10,37 +10,58 @@
  */
 class Solution {
 public:
-    void traverse(ListNode*temp,stack<int>&st){
-        //Base Case
-        if(temp==nullptr){
-            return;
+    ListNode* Reverse(ListNode*temphead){
+        ListNode*prev=nullptr;
+        ListNode*curr=temphead;
+        ListNode*nxt;
+        while(curr!=nullptr){
+            nxt=curr->next;
+            curr->next=prev;
+            prev=curr;
+            curr=nxt;
         }
-        st.push(temp->val);
-        traverse(temp->next,st);
+        return prev;
     }
 
     bool isPalindrome(ListNode* head) {
-        stack<int>st;
+        bool result=true;
+        if(head==nullptr || head->next==nullptr){
+            return true;
+        }
         ListNode*slow=head;
         ListNode*fast=head;
+        ListNode*prev;
         while(fast!=nullptr && fast->next!=nullptr){
+            prev=slow;
             slow=slow->next;
             fast=fast->next->next;
         }
-        //checking for odd Node
+        ListNode*connector;
+        //Cheching for Odd node
         if(fast!=nullptr){
+            connector=slow;
             slow=slow->next;
         }
-        //Passing 1st node of 2nd half.
-        traverse(slow,st);
-        ListNode*temp=head;
-        while(!st.empty() && temp!=nullptr){
-            if(st.top()!=temp->val){
-                return false;
-            }
-            st.pop();
-            temp=temp->next;
+        else{
+            connector=prev;
         }
-        return true;
+        connector->next=nullptr;
+        //starting reverse
+        ListNode*secondhalf=Reverse(slow);
+        ///Checking
+        ListNode*firsthalf=head;
+        ListNode*temp=secondhalf;
+        while(temp!=nullptr){
+            if((temp->val)!=(firsthalf->val)){
+                result=false;
+                break;
+            }
+            temp=temp->next;
+            firsthalf=firsthalf->next;
+        }
+
+        //Restore Original Linked list
+        connector->next=Reverse(secondhalf);
+        return result;
     }
 };
