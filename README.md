@@ -30,4 +30,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0094-binary-tree-inorder-traversal) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
