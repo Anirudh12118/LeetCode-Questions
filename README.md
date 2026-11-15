@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0234-palindrome-linked-list) |
 ## Stack
 |  |
@@ -34,8 +35,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0001-two-sum) |
+| [0189-rotate-array](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0189-rotate-array) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0001-two-sum) |
+## Math
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
