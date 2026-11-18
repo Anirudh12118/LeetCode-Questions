@@ -4,11 +4,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
 | [0203-remove-linked-list-elements](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0203-remove-linked-list-elements) |
 | [0234-palindrome-linked-list](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0234-palindrome-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
 | [0189-rotate-array](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0234-palindrome-linked-list) |
 ## Stack
@@ -42,8 +44,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0001-two-sum) |
+| [0141-linked-list-cycle](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
 ## Math
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0189-rotate-array) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
