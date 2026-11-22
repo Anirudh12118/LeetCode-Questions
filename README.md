@@ -45,12 +45,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0001-two-sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0189-rotate-array](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0189-rotate-array) |
+| [0217-contains-duplicate](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0217-contains-duplicate) |
 | [3978-unique-middle-element](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/3978-unique-middle-element) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
+| [0217-contains-duplicate](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0217-contains-duplicate) |
 ## Math
 |  |
 | ------- |
@@ -67,4 +69,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3978-unique-middle-element](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/3978-unique-middle-element) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/Anirudh12118/LeetCode-Questions/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
